@@ -1,4 +1,5 @@
 # 515K Hotel Reviews Data in Europe
+*Can you make your own trip more cozy by using data science?*
 
 **Content**
 
