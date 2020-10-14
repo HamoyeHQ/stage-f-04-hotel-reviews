@@ -29,7 +29,7 @@ Steps used in  building the  recommender system based in weighted average is sum
 ## Recommender Model Based on Reviews
 This model recommends hotels based on samples of both positive and negative reviews.\
 In building the model, various libraries such as pandas,numpy and sklearn were used\.
-The model takes in a hotel names as input and recommends hotels based on reviews gotten from that hotel.\
+The model takes in a hotel name as input and uses reviews for the inputed hotel to recommend other hotels based on similar  reviews.\
 In the model the positive and negative reviews for every lodger have been combined and vectorized using a vectorizer from a sklearn feature extraction module.
 The similarity scores for each hotel with every other hotel are then computed from the vectorized data.\
 The values are sorted to output a ranking of the most similar hotels to each hotel, which is then used as the output for the recommendation system.
