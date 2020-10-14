@@ -1,11 +1,10 @@
-# 515K Hotel Reviews Data in Europe
-*Can you make your own trip more cozy by using data science?*
+<p>Every year thousands of people travel to different locations, some for vacation, some for tourism, some for business and some for other causes. They are plagued with the choice of hotel to stay in. Some make the wrong choice and ends of having bad memories. This bad memories can have ripple effect, some could be a psychological scar, demeriting a whole country/place, etc. With the help of a recommender system, we want help thousands around the world make this important decision.</p>
 
-**Content**
+<p>The data is gotten from kaggle. It was scraped from [Booking.com](https://www.booking.com/) by [Jiashen Liu](https://www.kaggle.com/jiashenliu).</p>
 
-The csv file contains 17 fields. The description of each field is as below:
+The data is a csv file contains 17 columns. The description of each column is as below:
 
-1.Hotel_Address: Address of hotel.
+1. Hotel_Address: Address of hotel.
 
 2. Review_Date: Date when reviewer posted the corresponding review.
 

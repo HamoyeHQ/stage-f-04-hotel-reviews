@@ -1,1 +1,3 @@
+<p>The data gotten from kaggle contained missing values from 17 different hotels, they were googled and filled. The first file, second file and third file are (`Hotel_Review_Dataset(1).rar`,  `Hotel_Review_Dataset(2).rar`, `Hotel_Review_Dataset(3).rar`) are the data after filling it up, they should be concatenated vertically in that order to have the single csv file.</p>
 
+<p>The last one `Hotel_review_feature_engineering.zip` is the resulting zipped file after some feature engineering.</p>
