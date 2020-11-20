@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: hotel-recommendation-pipeline-
+  annotations: {pipelines.kubeflow.org/kfp_sdk_version: 1.0.3, pipelines.kubeflow.org/pipeline_compilation_time: '2020-10-14T01:45:19.004514',
+    pipelines.kubeflow.org/pipeline_spec: '{"description": "A recommender system pipeline
+      that performs recommendation system algorithms.", "name": "Hotel Recommendation
+      pipeline"}'}
+  labels: {pipelines.kubeflow.org/kfp_sdk_version: 1.0.3}
+spec:
+  entrypoint: hotel-recommendation-pipeline
+  templates:
+  - name: hotel-recommendation-pipeline
+    dag:
+      tasks: []
+  arguments:
+    parameters: []
+  serviceAccountName: pipeline-runner
